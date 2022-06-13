@@ -1,0 +1,22 @@
+ .card {
+    width: 175px;
+    height: 175px;
+    background-image: url(../../image/stiker.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+/*     background-color:rgba(197, 218, 17, 0.979); 
+ */border-radius: 10px;
+ 
+    padding-top: 25px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    transition: 1s;
+    color:black;
+    position: relative;
+} 
+.card:hover {
+  transform: scale(1.2); 
+}

@@ -1,0 +1,7 @@
+.header__email{
+    margin-right: 24px;
+}
+.header__email:hover{
+    transition: border-bottom .5s ;
+    border-bottom: 2px solid green;
+}

@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Необходимо доработать обновление токена, сохранение карточек на своих местах после обновления, метод патч, валидацию
 
 ## Available Scripts
 

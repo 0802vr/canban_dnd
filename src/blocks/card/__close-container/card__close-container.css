@@ -1,0 +1,17 @@
+.card__close-container {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    background-image: url(../../../image/del.png);
+    position: absolute;
+    top: 10px;
+    right:5px;
+    width: 45px;
+    height: 45px;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border:none;
+        
+}

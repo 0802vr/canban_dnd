@@ -1,0 +1,104 @@
+/* 
+ 
+    .table__common{
+        color: white;
+        background: transparent;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #0f0f0ffa;
+        border-radius: 3px;
+        position: relative;
+        margin: 1em;
+        display: inline-block;
+        padding: 0.5em 1em;
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+        font-family: comfortaa;
+        font-weight: bold;
+      }
+      .table__common:before,
+      .table__common:after {
+        content: "";
+        display: block;
+        position: absolute;
+        border-color: #70e70f;
+        box-sizing: border-box;
+        border-style: solid;
+        width: 1em;
+        height: 1em;
+        transition: all 0.3s ease-in-out;
+      }
+      .table__common:before {
+        top: -6px;
+        left: -6px;
+        border-width: 2px 0 0 2px;
+        z-index: 5;
+      }
+      .table__common:after {
+        bottom: -6px;
+        right: -6px;
+        border-width: 0 2px 2px 0;
+      }
+      .table__common:hover:before,
+      .table__common:hover:after {
+        width: calc(100% + 12px);
+        height: calc(100% + 12px);
+         
+      }
+      .table_1:hover:before,
+      .table_1:hover:after{
+        border-color: red;
+        width: calc(100% + 12px);
+        height: calc(100% + 12px);
+        transform: rotateY(180deg); 
+        }
+        .table_2:hover:before,
+      .table_2:hover:after{
+            border-color: blue;
+            width: calc(100% + 12px);
+            height: calc(100% + 12px);
+            transform: rotateY(180deg); 
+        }
+        .table_3:hover:before,
+      .table_3:hover:after{
+            border-color: yellow;
+            width: calc(100% + 12px);
+            height: calc(100% + 12px);
+            transform: rotateY(180deg); 
+        }
+        .table_4:hover:before,
+      .table_4:hover:after{
+            border-color: green;
+            width: calc(100% + 12px);
+            height: calc(100% + 12px);
+            transform: rotateY(180deg); 
+        }
+      /* .table__common:hover {
+        color: #353535;
+        background-color: #fff;
+        border-color: #fff;
+      } */
+      
+      .table__common:before,
+      .blue button:after {
+        border-color: #e9eef0;
+      }
+      /* .table__common:hover:before,
+      .table__common:hover:after {
+        width: calc(100% + 12px);
+        height: calc(100% + 12px);
+        border-color: #e5493b;
+        transform: rotateY(180deg); 
+      } */
+      .table__common:hover {
+        color: #3bb4e5;
+        background-color: transparent;
+        border-color: #e5e8e9;
+      }
+ */
+
+ .table__common{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ }

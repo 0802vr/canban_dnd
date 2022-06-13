@@ -1,0 +1,12 @@
+.login__error {
+    display: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF0000;
+    margin-top: -25px;
+    margin-left: 36px;
+    margin-bottom: 13px;
+}

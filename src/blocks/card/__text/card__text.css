@@ -1,0 +1,5 @@
+.card__text{
+    margin:15px;
+    border: 1px solid rgb(30, 58, 214);
+    word-wrap: break-word;
+}
